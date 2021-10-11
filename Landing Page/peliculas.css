@@ -1,0 +1,43 @@
+body {
+    background-image:url(images/klimt.jpeg) ;
+    background-size: 100% auto;
+    color: #f9faf8;
+    text-decoration: none;
+}
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .partone {
+        display: flex;
+        color: #F9FAF8;
+        padding: 6px 0px 20px 80px;
+        align-items: center;
+    }
+    .draco-logo img {
+        width: 100px;
+        margin-left: auto;
+        margin-top: 16px;
+        height: auto;
+        border: 4px solid black;
+    }    
+    .options {
+        display: flex;
+        margin-left: auto;
+        padding: 0px 100px 100px 12px;
+    }
+    .options a {
+        text-decoration: none;
+        color:black ;
+        font-size: 20px;
+        padding: 5px;
+        font-family:serif;
+    }
+    .lista {
+        font-size: 24px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    a:visited{
+        color: transparent;
+    }
