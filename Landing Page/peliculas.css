@@ -1,6 +1,6 @@
 body {
     background-image:url(images/klimt.jpeg) ;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     color: #f9faf8;
     text-decoration: none;
 }
@@ -33,10 +33,41 @@ body {
         padding: 5px;
         font-family:serif;
     }
-    .lista {
+@font-face {
+    font-family: Harry_Potter;
+    src: url(HARRYP__.TTF);
+}
+@font-face {
+    font-family: Lilo_Stitch;
+    src: url(Buka\ Bird.ttf);
+}
+@font-face {
+    font-family: Nightmare;
+    src: url(NITEMARE.TTF);
+
+}
+@font-face {
+    font-family: Donnie;
+    src: url(FrankKnows-jr5l.ttf);
+}
+@font-face {
+    font-family: rickandmorty;
+    src: url(shlop\ rg.ttf);
+}
+@font-face {
+    font-family: Game;
+    src: url(Game\ of\ Thrones.ttf);
+}
+@font-face {
+    font-family: spongebob;
+    src: url(Spongeboy\ Me\ Bob.ttf);
+}
+    .lista{
         font-size: 24px;
         font-weight: bolder;
         text-decoration: none;
+        width: auto;
+
     }
     a:visited{
         color: transparent;
