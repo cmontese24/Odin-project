@@ -1,0 +1,73 @@
+body {
+    background-image:url(images/klimt.jpeg) ;
+    background-size: auto auto;
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+}
+   /*  .container {
+        display: flex;
+        flex-direction: column;
+    } */
+    .partone {
+        padding: 6px 0px 20px 80px;
+        align-items: center;
+    }
+    .draco-logo img {
+        width: 100px;
+        margin-left: auto;
+        margin-top: 16px;
+        height: auto;
+        border: 4px solid black;
+    }    
+    a:visited{
+        color: transparent;
+    }
+    .slider {
+        width: auto;
+        margin-top: 0;
+        margin-left: 150px;
+        margin-right: 150px;
+        overflow: hidden;
+        align-items: center;
+    }
+    .slider ul {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        animation: cambio 20s infinite alternate ease-in-out;
+        align-items: center;
+    }
+    .slider li {
+        list-style: none;
+        width: 100%;
+        align-items:center;
+    }
+    .slider img {
+        align-items: center;
+        width: 100%;
+    }
+    @keyframes cambio {
+        0% { margin-left: 0;}
+        20% { margin-left: 0;}
+
+        21% { margin-left:-234px;}
+        40% { margin-left:-234px;}
+
+        41% { margin-left:-468px;}
+        60% { margin-left:-468px;}
+
+        61% { margin-left:-647px;}
+        80% { margin-left:-647px;}
+
+        81% { margin-left:-820px;}
+        100% { margin-left:-820px;}
+    }
+@font-face {
+    font-family: Sesentas;
+    src: url(Sesentas.ttf);
+}
+@font-face {
+    font-family: kepon;
+    src: url(KeeponTruckin.ttf);
+}

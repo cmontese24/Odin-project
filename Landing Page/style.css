@@ -71,12 +71,12 @@ body {
     .intro button {
     display: block;
     text-align: center;
-    width: 110px;
+    width: 115px;
     border: none;
     padding: 10px;
     border-radius: 8px;
     color: black;
-    font-family: 'Roboto', arial;
+    font-family: maquina;
     text-decoration: none;
     font-weight: bold;
     }
@@ -161,7 +161,7 @@ body {
     padding-bottom: 0px;
     padding-right: 10px;
     font-family: maquinabreve;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: right;
     }
 
@@ -212,9 +212,7 @@ body {
     color: #fff;
     font-family: 'Roboto', arial;
     }
-
-
-
-
-
+    a:visited{
+        color: transparent;
+    }
 
